@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 /**
  * @author by ys
- * @create by 2019/10/16
+ * @create by 2019/10/16git push origin master
  */
 @Entity
 @Table(name="head_master")

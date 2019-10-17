@@ -67,6 +67,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <!--<version>6.0.6</version>-->
         </dependency>
+        <!--lombok生成get和set方法等-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
