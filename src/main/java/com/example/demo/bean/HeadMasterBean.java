@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Table(name="head_master")
 public class HeadMasterBean {
     /**
-     * 一对一双向映射，HeadMaster与school的关系
+     * 一对一映射，HeadMaster与school的关系
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//主键生成策略
